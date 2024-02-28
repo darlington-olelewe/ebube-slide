@@ -1,0 +1,14 @@
+
+
+.progress_bar{
+    height: 2px;
+    border-radius: 9px;
+    padding: 1px;
+}
+
+.progress_filler{
+    height: 4px;
+    background-color: #4b46b8;
+    border-radius: 9px;
+
+}

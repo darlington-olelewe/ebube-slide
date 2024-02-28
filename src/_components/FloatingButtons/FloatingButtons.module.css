@@ -1,0 +1,36 @@
+.fl_flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 100px;
+    z-index: 9999;
+    position: fixed;
+    width: 100%;
+}
+
+.fl_btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 150px;
+    height: 50px;
+    color: white;
+    font-size: 30px;
+    background-color: #e84848;
+    border-radius: 10px;
+    margin-top: -150px;
+    border: none;
+}
+
+.fl_img{
+    color: white;
+    font-weight: bolder;
+    fill: white;
+}
+.fl_btn:hover{
+    border: solid 1px darkred;
+    color: black;
+}
+
+
+

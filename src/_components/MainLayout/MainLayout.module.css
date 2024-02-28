@@ -1,0 +1,9 @@
+
+.main_layout{
+    width: 100%;
+    max-width: 1273px;
+    background-color: white;
+    min-height: 80vh;
+    margin: 0 auto;
+    border-radius: 10px;
+}
