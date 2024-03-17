@@ -1,14 +1,13 @@
 import Title from "../../_components/Title/Title";
 import style from "./Page1.module.css"
 import {Icons} from "../../_assets/Icons";
-import FloatingButtons from "../../_components/FloatingButtons/FloatingButtons";
 const Page1=()=>{
     const dynamicStyle = {
         backgroundImage: `url(${Icons.page1})`
     }
 
     return(
-        <div>
+        <>
 
             <div className={style.page1_flex}>
                 <div className={style.page1_left}>
@@ -25,8 +24,8 @@ const Page1=()=>{
 
             </div>
 
-            <FloatingButtons/>
-        </div>
+
+        </>
     )
 }
 export default Page1

@@ -1,7 +1,6 @@
 import Title from "../../_components/Title/Title";
 import style from "./Page3.module.css"
 import {Icons} from "../../_assets/Icons";
-import FloatingButtons from "../../_components/FloatingButtons/FloatingButtons";
 const Page3=()=>{
     const dynamicStyle = {
         backgroundImage: `url(${Icons.page3})`
@@ -28,8 +27,6 @@ const Page3=()=>{
                 </div>
 
             </div>
-
-            <FloatingButtons/>
         </div>
     )
 }
