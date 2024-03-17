@@ -6,7 +6,7 @@ const PageContextProvider=(props:{children:ReactNode})=>{
     const [page,setPage] = useState<number>(1)
 
     const updatePage=(num: number)=>{
-        if(num >= 1 && num <= 7){
+        if(num >= 1 && num <= 11){
             setPage(num);
         }
     }

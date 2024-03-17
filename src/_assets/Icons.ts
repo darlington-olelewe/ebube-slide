@@ -9,10 +9,11 @@ import page4 from "./page4.png"
 import page5 from "./page5.mp4"
 import page6 from "./page6.png"
 import page7 from "./page7.png"
+import page8 from "./page8.png"
 export const Icons = {
     right: right,
     left: left,
     menu: menu,
     close: close,
-    page1,page2,page3,page4,page5,page6,page7
+    page1,page2,page3,page4,page5,page6,page7,page8
 }

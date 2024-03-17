@@ -23,6 +23,10 @@ const SideNav=()=>{
                 <li className={curr == 5 ? "active" : ""} onClick={()=>setCurr(5)}>How does it spread</li>
                 <li className={curr == 6 ? "active" : ""} onClick={()=>setCurr(6)}>Symptoms</li>
                 <li className={curr == 7 ? "active" : ""} onClick={()=>setCurr(7)}>Treatment</li>
+                <li className={curr == 8 ? "active" : ""} onClick={()=>setCurr(8)}>Precautions</li>
+                <li className={curr == 9 ? "active" : ""} onClick={()=>setCurr(9)}>Travel advice</li>
+                <li className={curr == 10 ? "active" : ""} onClick={()=>setCurr(10)}>Brief Summary</li>
+                <li className={curr == 11 ? "active" : ""} onClick={()=>setCurr(11)}>Reference</li>
             </ul>
         </div>
     )

@@ -6,7 +6,7 @@ const ProgressBar=()=>{
     const[fill, setFill] = useState("0%")
     const {curr} = useContext(PageContext)
     useEffect(()=>{
-        const per = `${curr * 100 / 7}%`;
+        const per = `${curr * 100 / 11}%`;
         setFill(per)
 
     },[curr])
